@@ -54,16 +54,69 @@ nav {
     margin: 1% 5% 0 1%;
 }
 
+
 header {
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     width: 100%;
-    height: 80vh;
+    /* height: 80vh;*/
     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)), url('img/fundo.jpg');
     background-size: cover;
     background-position: center;
     border-bottom: 8px solid rgb(73, 68, 68);
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .miolo {
+    width: 100%;
+    margin-top: 5%;
+    text-align: center;
+    padding: 10px;
+}
+
+.miolo h1 {
     color: white;
+    font-size: 4rem;
+    text-shadow: 1px 1px 5px black;
+    padding: 0;
+    margin: 0;
+}
+
+.miolo h2 {
+    color: white;
+    font-weight: 500;
+    text-shadow: 1px 1px 5px black;
+    padding: 10px;
+    margin: 0;
+}
+
+.miolo h3 {
+    color: white;
+    font-weight: 400;
+}
+
+.input-container {
+    text-align: center;
+}
+
+.input-email {
+    width: 450px;
+    height: 58px;
+    padding: 30px 40px 20px 10px;
+    margin-right: 0;
+    margin-bottom: 2%;
+}
+
+.btn-email {
+    background: red;
+    border: 1px solid red;
+    color: white;
+    width: 196px;
+    height: 58px;
+    font-size: 22px;
+    padding: 19px;
+    margin-left: 0;
 }
