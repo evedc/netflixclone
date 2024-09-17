@@ -108,6 +108,7 @@ header {
     padding: 30px 40px 20px 10px;
     margin-right: 0;
     margin-bottom: 2%;
+    border-radius: 5px;
 }
 
 .btn-email {
@@ -115,8 +116,32 @@ header {
     border: 1px solid red;
     color: white;
     width: 196px;
-    height: 58px;
+    height: 56px;
     font-size: 22px;
-    padding: 19px;
+    padding: 16px;
     margin-left: 0;
+    border-radius: 5px;
+}
+
+.btn-email:hover {
+    cursor: pointer;
+    color: white;
+    background: rgb(255, 41, 41);
+}
+
+section {
+    display: flex;
+    color: white;
+    border-bottom: 8px solid rgb(73, 68, 68);
+    margin-bottom: 2%;
+
+}
+
+.col-6 img {
+    width: 400px;
+}
+
+.container {
+    width: 100%;
+
 }
