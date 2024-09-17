@@ -9,20 +9,23 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Roboto", sans-serif;
-    ;
+    background: black;
 }
 
 nav {
     display: flex;
+    flex-direction: row;
+    align-items: center;
     width: 100%;
     height: 80px;
-    border: 1px solid red;
     position: absolute;
 }
 
 .logo {
     flex: 20%;
     text-align: left;
+    padding-left: 50px;
+    padding-top: 15px;
 }
 
 .logo img {
@@ -36,4 +39,31 @@ nav {
 .select-idioma {
     padding: 5px 15px;
     float: right;
+    margin: 1%;
+    background: none;
+    color: white;
+}
+
+.btn-topo {
+    background: red;
+    padding: 5px 15px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    float: right;
+    margin: 1% 5% 0 1%;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    height: 80vh;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)), url('img/fundo.jpg');
+    background-size: cover;
+    background-position: center;
+    border-bottom: 8px solid rgb(73, 68, 68);
+}
+
+.miolo {
+    color: white;
 }
