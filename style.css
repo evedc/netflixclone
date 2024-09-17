@@ -137,11 +137,26 @@ section {
 
 }
 
-.col-6 img {
-    width: 400px;
+section img {
+    max-width: 100%;
 }
 
-.container {
-    width: 100%;
+section h2 {
+    font-size: 3rem;
+}
 
+section h3 {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 35px;
 }
