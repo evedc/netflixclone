@@ -160,3 +160,15 @@ section h3 {
     float: left;
     padding: 35px;
 }
+
+.text-center {
+    text-align: center;
+}
+
+.pergunta {
+    width: 90%;
+    background: rgb(73, 68, 68);
+    padding: 15px 0px 15px 25px;
+    font-size: 30px;
+    cursor: pointer;
+}
