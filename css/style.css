@@ -171,4 +171,15 @@ section h3 {
     padding: 15px 0px 15px 25px;
     font-size: 30px;
     cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.resposta {
+    display: none;
+    width: 90%;
+    background: rgb(73, 68, 68);
+    padding: 15px 0px 15px 25px;
+    font-size: 30px;
+    cursor: pointer;
+    margin-bottom: 5px;
 }
