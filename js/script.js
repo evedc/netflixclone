@@ -1,5 +1,3 @@
-
-$('pergunta').click(function () {
-    $('resposta').toggle();
-})
-
+$('.pergunta').click(function () {
+    $('.resposta').slideToggle();
+});
