@@ -1,16 +1,132 @@
+/***** RESPONSIVIDADE ****/
+
+@media only screen and (min-width: 0px) and (max-width:332px) {
+    [class*="col-"] {
+        width: 100%;
+        text-align: center;
+    }
+
+    .logo {
+        padding: 0;
+        text-align: center !important;
+    }
+
+    .logo img {
+        max-width: 80px !important;
+
+    }
+
+    .miolo h1 {
+        font-size: 1.5rem !important;
+    }
+
+    .input-email {
+        width: 90%;
+    }
+
+    .grupo-topo {
+        display: none;
+    }
+
+    .select-idioma {
+        padding: 2px 7px !important;
+    }
+
+    .btn-topo {
+        padding: 2px 7px !important;
+    }
+
+    .btn-email {
+        width: 80% !important;
+    }
+}
+
+@media only screen and (min-width: 333px) and (max-width:380px) {
+    [class*="col-"] {
+        width: 100%;
+        text-align: center;
+    }
+
+    .logo {
+        padding: 0;
+    }
+
+    .logo img {
+        min-width: 100px !important;
+
+    }
+
+    .miolo h1 {
+        font-size: 2.5rem;
+    }
+
+    .input-email {
+        width: 250px;
+    }
+
+    .select-idioma {
+        padding: 2px 7px !important;
+    }
+
+    .btn-topo {
+        padding: 2px 7px !important;
+    }
+
+}
+
+
+/* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     [class*="col-"] {
         width: 100%;
         text-align: center;
     }
+
+    .logo {
+        padding: 0;
+    }
+
+    .logo img {
+        min-width: 150px;
+
+    }
+
+    .miolo h1 {
+        font-size: 2.5rem;
+    }
+
+    .input-email {
+        width: 250px;
+    }
+
 }
 
+/* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+    [class*="col-"] {
+        width: 100%;
+        text-align: center;
+    }
+
+
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 950px) {
+
+    [class*="col-"] {
+        text-align: left;
+    }
 
     .container {
-        width: 70%;
-        margin-left: 15%;
-        margin-right: 15%;
+        /* border:1px solid red; */
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
     .col-1 {
@@ -60,11 +176,21 @@
     .col-12 {
         width: 100%;
     }
+
+    .miolo h1 {
+        font-size: 4rem;
+    }
+
 }
 
-@media only screen and (min-width: 768px) {}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
 
+    .container {
+        /* border:1px solid red; */
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
 
-@media only screen and (min-width: 992px) {}
-
-@media only screen and (min-width: 1200px) {}
+}
